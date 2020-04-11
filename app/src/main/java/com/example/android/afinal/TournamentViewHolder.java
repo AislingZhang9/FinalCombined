@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,6 +19,7 @@ public class TournamentViewHolder extends RecyclerView.ViewHolder {
     public TextView tournament;
     public TextView date;
     public TextView location;
+    public Button buyTicket;
     public Toast toast;
 
 
@@ -28,6 +30,7 @@ public class TournamentViewHolder extends RecyclerView.ViewHolder {
         tournament = (TextView) itemView.findViewById(R.id.tournament);
         date = (TextView) itemView.findViewById(R.id.date);
         location = (TextView) itemView.findViewById(R.id.location);
+        buyTicket = (Button) itemView.findViewById(R.id.button);
     }
 
 

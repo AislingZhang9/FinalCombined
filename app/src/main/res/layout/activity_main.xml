@@ -29,6 +29,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:onClick="startActivity3"
-        android:text="@string/tutorial_list" />
+        android:text="@string/tournament_list" />
 
 </LinearLayout>

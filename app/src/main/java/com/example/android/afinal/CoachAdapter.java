@@ -71,7 +71,7 @@ public class CoachAdapter extends RecyclerView.Adapter<CoachAdapter.CoachViewHol
         TextView email;
         TextView info;
         ImageView photoId;
-        RelativeLayout coachLayout;
+        CardView coachLayout;
 
         public CoachViewHolder(View itemView) {
             super(itemView);

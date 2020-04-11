@@ -29,5 +29,6 @@
     <string name="location3">Location: Campinas Brazil</string>
     <string name="coach_name">Coach name</string>
     <string name="email_address">email</string>
+    <string name="tournament_list">Tournament</string>
 
 </resources>

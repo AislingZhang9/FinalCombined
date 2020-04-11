@@ -15,10 +15,12 @@ import java.util.List;
 public class TutorialAdapter extends RecyclerView.Adapter<TutorialViewHolder> {
     private List<Tutorial> tutorials;
     private Context context;
+    private List<String> link;
 
-    public TutorialAdapter(List<Tutorial> tutorials, Context context){
+    public TutorialAdapter(List<Tutorial> tutorials, Context context,List<String> link){
         this.tutorials = tutorials;
         this.context = context;
+        this.link = link;
     }
 
     @Override
@@ -37,9 +39,11 @@ public class TutorialAdapter extends RecyclerView.Adapter<TutorialViewHolder> {
         holder.cardView.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(Intent.ACTION_SENDTO);
-                intent.setData(Uri.parse("mailto:"+tutorials.get(position).duration));
+                Toast.makeText(context,tutorials.get(position).title,Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, DisplayerActivity.class);
+                intent.putExtra("LINK",link.get(position));
                 context.startActivity(intent);
+
             }
 
         });
