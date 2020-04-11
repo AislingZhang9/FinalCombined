@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="ep1">Episode 1 part 1 - Backcourt high position shots</string>
+    <string name="dur1">4:41</string>
+    <string name="dur2">9:14</string>
+    <string name="ep2">Episode 1 part 2 - Frontcourt backhand shots</string>
+    <string name="ep3">Episode 2 part 1 - Backcourt backhand</string>
+    <string name="dur3">9:00</string>
+    <string name="tutorial_list">Tutorial List</string>
+    <string name="coach_list">Coach List</string>
+    <string name="jie_xiao">1. Ms. Jie Xiao</string>
+    <string name="email_xiao">Email: Xiaojie@gmail.com</string>
+    <string name="jieinfo">The One and Only Professor and Doctoral Advisor in Badminton in China\nWinner of Women\'s Singles and Women\'s Doubles of the 2000 National Capital ("DC") Open</string>
+    <string name="chibing">2. Mr. Chibing Wu</string>
+    <string name="email_chi">Email: ChibingWu@gmail.com</string>
+    <string name="chiinfo">The Founder and Head Coach for New York City Badminton Club\nThe Certified National Badminton Coach in the US</string>
+    <string name="singhua">3. Mr. Songhua Tang</string>
+    <string name="email_sing">Email: SonghuaTang@gmail.com</string>
+    <string name="singinfo">Former Professional Player\nThe Successor of the World-Renowned Tang Style Badminton Training</string>
+    <string name="date1">2020 March 24 - 29</string>
+    <string name="tour1">Orleans Masters 2020(Cancelled)</string>
+    <string name="location1">Location: ORLEANS FRANCE</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="tour2">YONEX-SUNRISE india Open 2020</string>
+    <string name="date2">2020 March 24 - 29</string>
+    <string name="location2">Location: New Delhi India</string>
+    <string name="tour3">2nd Brazil International Junior 2020 (Suspended)</string>
+    <string name="date3">2020 March 25 - 29</string>
+    <string name="location3">Location: Campinas Brazil</string>
+    <string name="coach_name">Coach name</string>
+    <string name="email_address">email</string>
+
+</resources>
