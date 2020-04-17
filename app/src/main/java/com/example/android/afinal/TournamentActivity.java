@@ -31,14 +31,20 @@ public class TournamentActivity extends AppCompatActivity {
 
     }
 
-    private void initialData(){
+    private void initialData() {
         tournament = new ArrayList<>();
-        tournament.add(new Tournament(R.drawable.france,getString(R.string.tour1),getString(R.string.date1),getString(R.string.location1)));
-        tournament.add(new Tournament(R.drawable.india,getString(R.string.tour2),getString(R.string.date2),getString(R.string.location2)));
-        tournament.add(new Tournament(R.drawable.brazil,getString(R.string.tour3),getString(R.string.date3),getString(R.string.location3)));
+        tournament.add(new Tournament(R.drawable.vietnam, getString(R.string.tour1), getString(R.string.date1), getString(R.string.location1)));
+        tournament.add(new Tournament(R.drawable.spain, getString(R.string.tour2), getString(R.string.date2), getString(R.string.location2)));
+        tournament.add(new Tournament(R.drawable.german, getString(R.string.tour3), getString(R.string.date3), getString(R.string.location3)));
+        tournament.add(new Tournament(R.drawable.malaysia, getString(R.string.tour4), getString(R.string.date4), getString(R.string.location4)));
+        tournament.add(new Tournament(R.drawable.austra, getString(R.string.tour5), getString(R.string.date5), getString(R.string.location5)));
+        tournament.add(new Tournament(R.drawable.usa, getString(R.string.tour6), getString(R.string.date6), getString(R.string.location6)));
         link = new ArrayList<>();
-        link.add("https://bwfbadminton.com/events/3746/orleans-masters-2020-cancelled/2016");
-        link.add("https://bwfworldtour.bwfbadminton.com/tournament/3730/yonex-sunrise-india-open-2020-suspended/overview/");
-        link.add("https://bwfbadminton.com/results/3888/2nd-brazil-international-junior-2020-suspended/2020-03-25");
+        link.add("https://bwfbadminton.com/results/3644/ciputra-hanoi-yonex-sunrise-vietnam-international-challenge-2020-postponed/2020-03-24");
+        link.add("https://bwfbadminton.com/results/3826/iberdrola-spanish-international-2020/draw/");
+        link.add("https://bwfbadminton.com/results/3851/b-a-b-b-german-international-2020/draw/");
+        link.add("https://bwfbadminton.com/results/3852/victor-malaysia-international-series-2020/2020-06-16");
+        link.add("https://bwfbadminton.com/results/3853/styrian-international-2020/draw/");
+        link.add("https://bwfworldtour.bwfbadminton.com/tournament/3735/yonex-us-open-2020/results/draw/");
     }
 }
