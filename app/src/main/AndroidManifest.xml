@@ -12,7 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DisplayerActivity"></activity>
+        <activity android:name=".SonghuaActivity"
+            android:parentActivityName=".CoachActivity"/>
+        <activity android:name=".ChibingActivity"
+            android:parentActivityName=".CoachActivity"/>
+        <activity android:name=".JieXiaoActivity"
+            android:parentActivityName=".CoachActivity"/>
+        <activity android:name=".BadIntroActivity" />
+        <activity android:name=".DisplayerActivity" />
         <activity android:name=".WebActivity" />
         <activity android:name=".TournamentActivity" />
         <activity android:name=".CoachActivity" />

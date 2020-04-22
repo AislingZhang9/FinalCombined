@@ -66,6 +66,16 @@
     <string name="dur15">7:12</string>
     <string name="ep16">The details of quick, Efficient movement</string>
     <string name="dur16">6:46</string>
+    <string name="title_activity_badminton_intro">BadmintonIntroActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabview1111">tabview1111</string>
+    <string name="tab2_content">2222</string>
+    <string name="tab3_content">3333</string>
+    <string name="more">more</string>
 
 
 </resources>
