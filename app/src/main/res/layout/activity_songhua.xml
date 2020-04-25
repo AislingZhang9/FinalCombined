@@ -4,14 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SonghuaActivity">
+
+    <ImageView
+        android:id="@+id/xinghua_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/coach3" />
+
+    <TextView
+        android:id="@+id/xinghua_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Songhua Tang"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+        <TextView
+            android:id="@+id/xinghua_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="\nSonghua Tang is the successor of the world-
+            renowned Tang-style badminton training,
+            as the son of Xianhu Tang, who has led and accompanied the Chinese Badminton team in
+            many successful campaigns at the Olympics,
+            World Championships, and Asian Games since
+            1980s, and was inducted into the International
+            Badminton Federation Hall of Fame in 2002. \n"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </ScrollView>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:background="@color/white"
+        android:background="@color/gray"
         android:onClick="sendEmail"
         android:text="contact"
         android:textSize="16sp" />

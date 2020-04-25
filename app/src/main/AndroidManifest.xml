@@ -18,12 +18,18 @@
             android:parentActivityName=".CoachActivity"/>
         <activity android:name=".JieXiaoActivity"
             android:parentActivityName=".CoachActivity"/>
-        <activity android:name=".BadIntroActivity" />
-        <activity android:name=".DisplayerActivity" />
-        <activity android:name=".WebActivity" />
-        <activity android:name=".TournamentActivity" />
-        <activity android:name=".CoachActivity" />
-        <activity android:name=".TutorialActivity" />
+        <activity android:name=".BadIntroActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DisplayerActivity"
+            android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".WebActivity"
+            android:parentActivityName=".TournamentActivity"/>
+        <activity android:name=".TournamentActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CoachActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TutorialActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

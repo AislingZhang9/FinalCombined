@@ -22,7 +22,7 @@ public class BadIntroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bad_intro);
-
+        setTitle("Badminton Rules");
         tabLayout = (TabLayout)findViewById(R.id.tabLayout);
         tabElement01 = (TabItem)findViewById(R.id.tab1);
         tabElement02 = (TabItem)findViewById(R.id.tab2);

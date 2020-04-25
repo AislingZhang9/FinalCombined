@@ -4,15 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation = "vertical"
     tools:context=".JieXiaoActivity">
+
+    <ImageView
+        android:id="@+id/jie_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/coach1" />
+
+    <TextView
+        android:id="@+id/xinghua_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Jie Xiao"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+    <TextView
+        android:id="@+id/xinghua_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="\n
+- Professor, Capital University of Physical Education and Sports Graduate School\n\n
+- Former National Badminton Player, Master Athlete\n\n
+- 1986 Dutch WorldBadminton Open (First Place, Women’s Singles)\n\n
+- 1986 Belgian World Badminton Open (First Place, Women’s Singles)\n\n
+- 2000 Washington DC Badminton Open (First Place, Women's Singles. First Place, Women's Doubles)\n\n
+- Head Coach of IBF World Training Center\n\n
+- Supervising Professor of International Olympic Committee\n\n
+- Badminton Committee Member of Chinese Sports Vocational Skill Evaluation Expert Instructors Committee\n\n
+- 2016 Awarded the title of “Outstanding Trainer of National Vocational Qualification in Sports Industry”, awarded by the General Administration of Sport of China\n\n
+- Screenwriter and the coach of demonstration and explanation in Badminton – Instruction from Experts, created by Chinese Central Television in 2006.\n
+
+"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    </ScrollView>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:background="@color/white"
+        android:background="@color/gray"
         android:onClick="sendEmail"
         android:text="contact"
         android:textSize="16sp" />
+
+
 </LinearLayout>

@@ -2,7 +2,6 @@ package com.example.android.afinal;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +42,6 @@ public class TutorialAdapter extends RecyclerView.Adapter<TutorialViewHolder> {
                 Intent intent = new Intent(context, DisplayerActivity.class);
                 intent.putExtra("LINK",link.get(position));
                 context.startActivity(intent);
-
             }
 
         });

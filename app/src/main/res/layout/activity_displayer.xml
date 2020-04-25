@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".DisplayerActivity">
 
-
-    <com.google.android.youtube.player.YouTubePlayerView
-            android:id="@+id/view"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="280dp"/>
-
     <Button
-        android:text="@string/button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/view"
-        android:background="@color/white"
-        android:id="@+id/button"/>
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="startActivity1"
+        android:text="Back To Tutorial Lists"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:text="@string/button"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/video_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:lineSpacingExtra="3dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

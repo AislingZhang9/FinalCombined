@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Final</string>
-    <string name="ep1">Backcourt high position shots</string>
+    <string name="ep1">1. Backcourt high position shots</string>
     <string name="dur1">4:41</string>
     <string name="dur2">9:14</string>
-    <string name="ep2">Frontcourt backhand shots</string>
-    <string name="ep3">Backcourt backhand</string>
+    <string name="ep2">2. Frontcourt backhand shots</string>
+    <string name="ep3">3. Backcourt backhand</string>
     <string name="dur3">9:00</string>
     <string name="tutorial_list">Tutorial List</string>
     <string name="coach_list">Coach List</string>
@@ -40,31 +40,31 @@
     <string name="location5">Graz Austria</string>
     <string name="date6">2020 JUNE 23 - 28</string>
     <string name="location6">Fullerton, California USA</string>
-    <string name="ep4">Basic Footwork</string>
+    <string name="ep4">4. Basic Footwork</string>
     <string name="dur4">4:58</string>
-    <string name="ep5">Back court hitting position, Forehand slice technique</string>
+    <string name="ep5">5. Back court hitting position, Forehand slice technique</string>
     <string name="dur5">9:22</string>
-    <string name="ep6">Forehand service technique</string>
+    <string name="ep6">6. Forehand service technique</string>
     <string name="dur6">4:36</string>
     <string name="dur7">5:32</string>
-    <string name="ep7">Service Action</string>
-    <string name="ep8">Footwork, Backhand Grip</string>
+    <string name="ep7">7. Service Action</string>
+    <string name="ep8">8. Footwork, Backhand Grip</string>
     <string name="dur8">8:26</string>
-    <string name="ep9">XD positioning for returning serve</string>
+    <string name="ep9">9. XD positioning for returning serve</string>
     <string name="dur9">8:12</string>
-    <string name="ep10">Tactics for guarding the net</string>
+    <string name="ep10">10. Tactics for guarding the net</string>
     <string name="dur10">5:47</string>
-    <string name="ep11">Effective Footwork, Hit a proper drop shot</string>
+    <string name="ep11">11. Effective Footwork, Hit a proper drop shot</string>
     <string name="dur11">9:54</string>
-    <string name="ep12">Backhand net shot</string>
+    <string name="ep12">12. Backhand net shot</string>
     <string name="dur12">4:06</string>
-    <string name="ep13">Hit a fast and tight slicing drop shot from backcourt</string>
+    <string name="ep13">13. Hit a fast and tight slicing drop shot from backcourt</string>
     <string name="dur13">6:46</string>
-    <string name="ep14">Improve the forehand push-shot from forecourt</string>
+    <string name="ep14">14. Improve the forehand push-shot from forecourt</string>
     <string name="dur14">7:03</string>
-    <string name="ep15">Full Court Footwork</string>
+    <string name="ep15">15. Full Court Footwork</string>
     <string name="dur15">7:12</string>
-    <string name="ep16">The details of quick, Efficient movement</string>
+    <string name="ep16">16. The details of quick, Efficient movement</string>
     <string name="dur16">6:46</string>
     <string name="title_activity_badminton_intro">BadmintonIntroActivity</string>
     <string name="tab_text_1">Tab 1</string>
@@ -72,9 +72,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="tabview1111">tabview1111</string>
-    <string name="tab2_content">2222</string>
-    <string name="tab3_content">3333</string>
     <string name="more">more</string>
 
 
