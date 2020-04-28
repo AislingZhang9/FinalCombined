@@ -12,24 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SonghuaActivity"
-            android:parentActivityName=".CoachActivity"/>
-        <activity android:name=".ChibingActivity"
-            android:parentActivityName=".CoachActivity"/>
-        <activity android:name=".JieXiaoActivity"
-            android:parentActivityName=".CoachActivity"/>
-        <activity android:name=".BadIntroActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".DisplayerActivity"
-            android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".WebActivity"
-            android:parentActivityName=".TournamentActivity"/>
-        <activity android:name=".TournamentActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".CoachActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".TutorialActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AboutUsActivity"
+            android:parentActivityName=".MainActivity" ></activity>
+        <activity
+            android:name=".SonghuaActivity"
+            android:parentActivityName=".CoachActivity" />
+        <activity
+            android:name=".ChibingActivity"
+            android:parentActivityName=".CoachActivity" />
+        <activity
+            android:name=".JieXiaoActivity"
+            android:parentActivityName=".CoachActivity" />
+        <activity
+            android:name=".BadIntroActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DisplayerActivity"
+            android:parentActivityName=".TutorialActivity" />
+        <activity
+            android:name=".WebActivity"
+            android:parentActivityName=".TournamentActivity" />
+        <activity
+            android:name=".TournamentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CoachActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TutorialActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GetReportActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RequestAdvice"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

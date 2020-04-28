@@ -1,5 +1,19 @@
 <resources>
-    <string name="app_name">Final</string>
+    <string name="app_name">Infinity Badminton</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="name">Name:</string>
+    <string name="topic">Topic:</string>
+    <string name="read">Read</string>
+    <string name="training_advice_activity_description">Please submit the form to seek training advice, tips, and guidance on how to improve your badminton techniques and tactics. </string>
+    <string name="badminton_tutorials">Badminton Tutorials</string>
+    <string name="training_advice">Training Advice</string>
+    <string name="email_edit_text">Email: (only if different from sign up)</string>
+    <string name="phone">Phone: </string>
+    <string name="submit">Submit</string>
+    <string name="about_us">About us</string>
+    <string name="introduction">We aim to create a mobile learning platform for badminton enthusiasts, providing professional and advanced training guidance and support to players at various skill levels to improve badminton techniques and tactics. \nOur app is authentic information-based, which is straightforward, educational, and easy to use. \nWe provide a multifunctional seamless learning environment that enables users to have “coaches” whenever and wherever they play.</string>
+    <string name="qianzi_zhang_qz2175_tc_columbia_edu">Qianzi Zhang: qz2175@tc.columbia.edu</string>
+    <string name="ruoxi_feng_rf2722_tc_columbia_edu">Ruoxi Feng: rf2722@tc.columbia.edu</string>
     <string name="ep1">1. Backcourt high position shots</string>
     <string name="dur1">4:41</string>
     <string name="dur2">9:14</string>

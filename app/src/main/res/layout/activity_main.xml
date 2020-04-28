@@ -7,36 +7,173 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:onClick="startActivity1"
-        android:text="@string/tutorial_list" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/badminton_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/badminton" />
+        <TextView
+            android:layout_toRightOf="@id/badminton_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/badminton_tutorials"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:onClick="startActivity1"
+            android:freezesText="true"/>
+    </RelativeLayout>
 
-    <Button
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="startActivity2"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:text="@string/coach_list" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/register_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/register" />
+        <TextView
+            android:layout_toRightOf="@id/register_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coaches"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"
+            android:onClick="startActivity2"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
 
-    <Button
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:onClick="startActivity3"
-        android:text="@string/tournament_list" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/light_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/light" />
+        <TextView
+            android:onClick="requestTrainingAdvice"
+            android:layout_toRightOf="@id/light_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/training_advice"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"/>
+    </RelativeLayout>
 
-    <Button
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:onClick="startActivity4"
-        android:text="Badminton Rules" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/thumbs_up"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="12dp"
+            android:src="@drawable/thumbs_up" />
+        <TextView
+            android:onClick="getReport"
+            android:layout_toRightOf="@id/thumbs_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Report"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tournament_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/tournament" />
+        <TextView
+            android:layout_toRightOf="@id/tournament_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tournaments"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:onClick="startActivity3"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/rules_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/rules_emoji" />
+        <TextView
+            android:layout_toRightOf="@id/rules_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Badminton Rules"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:onClick="startActivity4"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/search_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/search" />
+        <TextView
+            android:layout_toRightOf="@id/search_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Court Search"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"
+            android:textColor="@android:color/black"
+            android:onClick="courtSearch"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/email_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/email" />
+        <TextView
+            android:layout_toRightOf="@id/email_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:freezesText="true"
+            android:onClick="aboutUs"/>
+    </RelativeLayout>
 
 </LinearLayout>
+
