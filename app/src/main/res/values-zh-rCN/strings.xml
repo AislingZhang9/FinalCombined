@@ -86,4 +86,5 @@
     <string name="tab3_1">正在翻译。</string>
     <string name="tab3_2">正在翻译。</string>
     <string name="introduction">我们的应用程序基于专业、科学、权威的羽毛球教学训练知识，致力于为广大的羽毛球爱好者提供多功能便捷式移动学习平台，直观清晰地分享专业、科学、权威的羽毛球教学训练知识，为不同水平的选手提供专业前沿的羽毛球技战术指导，实现将权威教练随身携带，随时随地获得指导，伴随训练，见证进步！</string>
+    <string name="training_advice_activity_description">请提交表格，告知您的基本信息，我们将为您提供专业、科学、权威的羽毛球训练方法建议和技战术水平提升指导。</string>
 </resources>
