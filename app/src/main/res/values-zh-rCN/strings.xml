@@ -36,14 +36,14 @@
     <string name="date1">2020年6月2-7日</string>
     <string name="location5">地点：奥地利格拉茨</string>
     <string name="date4">2020年6月16-20日</string>
-    <string name="tour6">尤尼克斯美国公开赛</string>
+    <string name="tour6">2020年尤尼克斯美国公开赛</string>
     <string name="date5">2020年6月18-21日</string>
     <string name="date6">2020年6月23-28日</string>
     <string name="location6">地点：美国加州富勒顿</string>
     <string name="location4">地点：马来西亚吉隆坡</string>
     <string name="location2">地点：西班牙马德里</string>
     <string name="location3">地点：德国波恩</string>
-    <string name="jie_xiao">1. 肖杰教练</string>
+    <string name="jie_xiao">1. 肖杰教授</string>
     <string name="chibing">2. 吴赤兵教练</string>
     <string name="email_sing">邮箱：SonghuaTang@gmail.com</string>
     <string name="email_chi">邮箱：ChibingWu@gmail.com</string>
@@ -73,5 +73,17 @@
     <string name="ep8">8. 起动的第一步，反手握拍</string>
     <string name="interval_and_change_of_ends">间歇和交换场区</string>
     <string name="singles_rule">"1. 在一局比赛开始时（比分 0 ： 0）或发球方得分为偶数时，发球方在右半场进行发球。当发球方得分为奇数时，在左半场进行发球。  2. 如果发球方取得一分，那么下一回合其继续发球。  3. 如果接发球方取得一分，那么下一回合其成为发球方。 "</string>
-    <string name="tab1_1">"1. 21分制，3局2胜为佳。 2. 每球得分制 。 4. 当双方均为20分时，领先对方2分的一方赢得该局比赛 。 5. 当双方均为29分时，先取得30分的一方赢得该局比赛 。 6. 一局比赛的获胜方在下一局率先发球。 "</string>
+    <string name="tab1_1">"1. 21分制，3局2胜为佳。2. 每球得分制 。 4. 当双方均为20分时，领先对方2分的一方赢得该局比赛 。 5. 当双方均为29分时，先取得30分的一方赢得该局比赛 。 6. 一局比赛的获胜方在下一局率先发球。 "</string>
+    <string name="jieinfo">"中国唯一的羽毛球运动训练方向博士生导师 2000年美国全国华盛顿DC羽毛球公开赛女子单打、双打冠军 "</string>
+    <string name="singinfo">前中国队队员 世界著名的汤式羽毛球训练法传承人</string>
+    <string name="chiinfo">纽约羽毛球俱乐部的创立者、总教练\n美国羽毛球协会认证的最高级别教练员\n</string>
+    <string name="tour1">2020年尤尼克斯越南国际挑战赛</string>
+    <string name="tour4">2020年维克多马来西亚羽毛球大师赛</string>
+    <string name="tour5">2020年奥地利羽毛球公开赛</string>
+    <string name="tour3">2020年德国羽毛球公开赛</string>
+    <string name="tour2">2020年伊比德罗拉西班牙羽毛球国际赛</string>
+    <string name="tab1_2">正在翻译。</string>
+    <string name="tab3_1">正在翻译。</string>
+    <string name="tab3_2">正在翻译。</string>
+    <string name="introduction">我们的应用程序基于专业、科学、权威的羽毛球教学训练知识，致力于为广大的羽毛球爱好者提供多功能便捷式移动学习平台，直观清晰地分享专业、科学、权威的羽毛球教学训练知识，为不同水平的选手提供专业前沿的羽毛球技战术指导，实现将权威教练随身携带，随时随地获得指导，伴随训练，见证进步！</string>
 </resources>
