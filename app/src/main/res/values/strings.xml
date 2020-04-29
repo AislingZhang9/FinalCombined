@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Infinity Badminton</string>
+    <string name="app_name" translatable="false">Infinity Badminton</string>
     <string name="sign_out">Sign Out</string>
     <string name="name">Name:</string>
     <string name="topic">Topic:</string>
@@ -8,18 +8,17 @@
     <string name="badminton_tutorials">Badminton Tutorials</string>
     <string name="training_advice">Training Advice</string>
     <string name="email_edit_text">Email: (only if different from sign up)</string>
-    <string name="phone">Phone: </string>
     <string name="submit">Submit</string>
     <string name="about_us">About us</string>
     <string name="introduction">We aim to create a mobile learning platform for badminton enthusiasts, providing professional and advanced training guidance and support to players at various skill levels to improve badminton techniques and tactics. \nOur app is authentic information-based, which is straightforward, educational, and easy to use. \nWe provide a multifunctional seamless learning environment that enables users to have “coaches” whenever and wherever they play.</string>
-    <string name="qianzi_zhang_qz2175_tc_columbia_edu">Qianzi Zhang: qz2175@tc.columbia.edu</string>
-    <string name="ruoxi_feng_rf2722_tc_columbia_edu">Ruoxi Feng: rf2722@tc.columbia.edu</string>
+    <string name="qianzi_zhang_qz2175_tc_columbia_edu" translatable="false">Qianzi Zhang: qz2175@tc.columbia.edu</string>
+    <string name="ruoxi_feng_rf2722_tc_columbia_edu" translatable="false">Ruoxi Feng: rf2722@tc.columbia.edu</string>
     <string name="ep1">1. Backcourt high position shots</string>
-    <string name="dur1">4:41</string>
-    <string name="dur2">9:14</string>
+    <string name="dur1" translatable="false">4:41</string>
+    <string name="dur2" translatable="false">9:14</string>
     <string name="ep2">2. Frontcourt backhand shots</string>
     <string name="ep3">3. Backcourt backhand</string>
-    <string name="dur3">9:00</string>
+    <string name="dur3" translatable="false">9:00</string>
     <string name="tutorial_list">Tutorial List</string>
     <string name="coach_list">Coach List</string>
     <string name="jie_xiao">1. Ms. Jie Xiao</string>
@@ -49,44 +48,71 @@
     <string name="tour5">Styrian International 2020</string>
     <string name="tour6">YONEX US Open 2020</string>
     <string name="date4">2020 June 16 - 20</string>
-    <string name="location4">Kuala Lumpur Malaysia</string>
+    <string name="location4">Location: Kuala Lumpur Malaysia</string>
     <string name="date5">2020 JUNE 18 -21</string>
-    <string name="location5">Graz Austria</string>
+    <string name="location5">Location: Graz Austria</string>
     <string name="date6">2020 JUNE 23 - 28</string>
-    <string name="location6">Fullerton, California USA</string>
+    <string name="location6">Location: Fullerton, California USA</string>
     <string name="ep4">4. Basic Footwork</string>
-    <string name="dur4">4:58</string>
+    <string name="dur4" translatable="false">4:58</string>
     <string name="ep5">5. Back court hitting position, Forehand slice technique</string>
-    <string name="dur5">9:22</string>
+    <string name="dur5" translatable="false">9:22</string>
     <string name="ep6">6. Forehand service technique</string>
-    <string name="dur6">4:36</string>
-    <string name="dur7">5:32</string>
+    <string name="dur6" translatable="false">4:36</string>
+    <string name="dur7" translatable="false">5:32</string>
     <string name="ep7">7. Service Action</string>
     <string name="ep8">8. Footwork, Backhand Grip</string>
-    <string name="dur8">8:26</string>
+    <string name="dur8" translatable="false">8:26</string>
     <string name="ep9">9. XD positioning for returning serve</string>
-    <string name="dur9">8:12</string>
+    <string name="dur9" translatable="false">8:12</string>
     <string name="ep10">10. Tactics for guarding the net</string>
-    <string name="dur10">5:47</string>
+    <string name="dur10" translatable="false">5:47</string>
     <string name="ep11">11. Effective Footwork, Hit a proper drop shot</string>
-    <string name="dur11">9:54</string>
+    <string name="dur11" translatable="false">9:54</string>
     <string name="ep12">12. Backhand net shot</string>
-    <string name="dur12">4:06</string>
+    <string name="dur12" translatable="false">4:06</string>
     <string name="ep13">13. Hit a fast and tight slicing drop shot from backcourt</string>
-    <string name="dur13">6:46</string>
+    <string name="dur13" translatable="false">6:46</string>
     <string name="ep14">14. Improve the forehand push-shot from forecourt</string>
-    <string name="dur14">7:03</string>
+    <string name="dur14" translatable="false">7:03</string>
     <string name="ep15">15. Full Court Footwork</string>
-    <string name="dur15">7:12</string>
+    <string name="dur15" translatable="false">7:12</string>
     <string name="ep16">16. The details of quick, Efficient movement</string>
-    <string name="dur16">6:46</string>
-    <string name="title_activity_badminton_intro">BadmintonIntroActivity</string>
+    <string name="dur16" translatable="false">6:46</string>
+    <string name="title_activity_badminton_intro" translatable="false">BadmintonIntroActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="more">more</string>
+    <string name="email">Email:</string>
+    <string name="find_us">Find us:</string>
+    <string name="location">Location: Dodge Physical Fitness Center \nAddress: 3030 Broadway, New York, NY 10027</string>
+    <string name="general_rules">General Rules</string>
+    <string name="singles">Singles</string>
+    <string name="doubles">Doubles</string>
+    <string name="chibing_wu">Chibing Wu</string>
+    <string name="chibinwu_intro" translatable="false">\n- 1996 – present: Founder and Head coach for NYC Badminton Club\n\n - 2015: Head coach for Pan American Team\n\n - 2014: USAB Certified HIGH PERFORMANCE COACH Level 4\n\n - 2003: 1st place in Men’s Doubles in BOSTON OPEN.\n\n - 2002: 1st place in Men’s Single in BOSTON OPEN.\n\n - 2000: 1st place in Men’s Doubles and Mixed Doubles, 3rd place in Men’s Single in USA National Championship.\n\n - 1997: as replacement coach for USA Olympic Team at Olympic Training Center in Colorado Spring.\n\n - 1992 – 1996: Head coach for Spain National Olympic Team.\n\n - 1992: Award as International Sports Master by China National Sports Federation.\n\n - 1987 – 1992: Member of China National Team.\n</string>
+    <string name="contact">contact</string>
+    <string name="play">Play</string>
+    <string name="get">Get</string>
+    <string name="badminton_rules">Badminton Rules</string>
+    <string name="court_search">Court Search</string>
+    <string name="tournaments">Tournaments</string>
+    <string name="get_report">Get Report</string>
+    <string name="coaches">Coaches</string>
+    <string name="issue">Issue:</string>
+    <string name="goal">Goal:</string>
+    <string name="description">Description (Basic Information):</string>
+    <string name="tab1_2">1. When the leading score reaches 11 points, players have a 60 second interval.\n\n2. A 2 minute interval between each game is allowed.\n\n3. In the third game, players change ends when the leading score reaches 11 points.\n</string>
+    <string name="interval_and_change_of_ends">Interval and Change of Ends</string>
+    <string name="tab1_1">1. A match consists of the best of 3 games of 21 points.\n\n2. Every time there is a serve - three is a point scored.\n\n3. The side winning a rally adds a point to its score.\n\n4. At 20 all, the side which gains a 2 point lead first, wins that game.\n\n5. At 29 all, the side scoring the 30th point, wins that game.\n\n6. The side winning a game serves first in the next game.</string>
+    <string name="scoring_system">Scoring System</string>
+
+    <string name="singles_rule">1. At the beginning of the game (0-0) and when the server’s score is even, the server serves from the right service court. When the server’s score is odd, the server serves from the left service court.\n\n2. If the server wins a rally, the server scores a point and then serves again from the alternate service court.\n\n3. If the receiver wins a rally, the receiver scores a point and becomes the new server. They serve from the appropriate service court – left if their score is odd, and right if it is even.</string>
+    <string name="tab3_1">1. A side has only one ‘service’.\n\n2. The service passes consecutively to the players as shown in the diagram.\n</string>
+    <string name="tab3_2">3. At the beginning of the game and when the score is even, the server serves from the right service court. When it is odd, the server serves from the left court.\n\n4. If the serving side wins a rally, the serving side scores a point and the same server serves again from the alternate service court.\n\n5. If the receiving side wins a rally, the receiving side scores a point. The receiving side becomes the new serving side.\n\n6. The players do not change their respective service courts until they win a point when their side is serving.\n\n</string>
 
 
 </resources>

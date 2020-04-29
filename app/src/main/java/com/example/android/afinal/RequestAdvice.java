@@ -3,6 +3,7 @@ package com.example.android.afinal;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,5 +40,10 @@ public class RequestAdvice extends AppCompatActivity {
         String description = descriptionField.getText().toString();
         CoachAdvice coachAdvice = new CoachAdvice(name,issue,goal,description);
         userReference.push().setValue(coachAdvice);
+        Toast.makeText(RequestAdvice.this,"Submit Successfully! Please download your report after three business days. ", Toast.LENGTH_SHORT).show();
+        nameField.getText().clear();
+        issueField.getText().clear();
+        goalField.getText().clear();
+        descriptionField.getText().clear();
     }
 }

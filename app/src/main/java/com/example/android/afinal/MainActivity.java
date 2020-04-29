@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.sign_out_menu:
-                //AuthUI.getInstance().signOut(this);
+                AuthUI.getInstance().signOut(this);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void courtSearch(View view) {
-        Uri gmmIntentUri = Uri.parse("geo:37.7749,-122.4194?q=Badminton Court");
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Badminton Court");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);

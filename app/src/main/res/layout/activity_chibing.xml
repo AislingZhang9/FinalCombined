@@ -24,7 +24,7 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="20dp"
-        android:text="Chibing Wu"/>
+        android:text="@string/chibing_wu"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,17 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:text="\n- 1996 – present: Founder and Head coach for NYC Badminton Club\n\n
-- 2015: Head coach for Pan American Team\n\n
-- 2014: USAB Certified HIGH PERFORMANCE COACH Level 4\n\n
-- 2003: 1st place in Men’s Doubles in BOSTON OPEN.\n\n
-- 2002: 1st place in Men’s Single in BOSTON OPEN.\n\n
-- 2000: 1st place in Men’s Doubles and Mixed Doubles, 3rd place in Men’s Single in USA National Championship.\n\n
-- 1997: as replacement coach for USA Olympic Team at Olympic Training Center in Colorado Spring.\n\n
-- 1992 – 1996: Head coach for Spain National Olympic Team.\n\n
-- 1992: Award as International Sports Master by China National Sports Federation.\n\n
-- 1987 – 1992: Member of China National Team.\n
-"
+            android:text="@string/chibinwu_intro"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -59,7 +49,7 @@
         android:layout_marginRight="16dp"
         android:background="@color/gray"
         android:onClick="sendEmail"
-        android:text="contact"
+        android:text="@string/contact"
         android:textSize="16sp" />
 
 </LinearLayout>

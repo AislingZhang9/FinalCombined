@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:onClick="readFromFirebase"
-        android:text="Get"
+        android:text="@string/get"
         android:freezesText="true"
         android:layout_gravity="center"/>
 

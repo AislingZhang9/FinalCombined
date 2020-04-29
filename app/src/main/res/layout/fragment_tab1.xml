@@ -22,7 +22,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="16dp"
-        android:text="General Rules"/>
+        android:text="@string/general_rules"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Scoring System"/>
+        android:text="@string/scoring_system"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -39,11 +39,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:textSize="18sp"
-        android:text="1. A match consists of the best of 3 games of 21 points.\n\n2. Every time there is a serve - three is a point scored.\n\n
-3. The side winning a rally adds a point to its score.\n\n
-4. At 20 all, the side which gains a 2 point lead first, wins that game.\n\n
-5. At 29 all, the side scoring the 30th point, wins that game.\n\n
-6. The side winning a game serves first in the next game."/>
+        android:text="@string/tab1_1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,7 +47,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Interval and Change of Ends "/>
+        android:text="@string/interval_and_change_of_ends"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -59,9 +55,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:textSize="18sp"
-        android:text="1. When the leading score reaches 11 points, players have a 60 second interval.\n\n
-2. A 2 minute interval between each game is allowed.\n\n
-3. In the third game, players change ends when the leading score reaches 11 points.\n"/>
+        android:text="@string/tab1_2"/>
 
 </LinearLayout>
     </ScrollView>

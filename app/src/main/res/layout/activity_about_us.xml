@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:text="Email: "
+        android:text="@string/email"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:text="Find us: "
+        android:text="@string/find_us"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:freezesText="true"
-        android:text="Location: Dodge Physical Fitness Center \nAddress: 3030 Broadway, New York, NY 10027"
+        android:text="@string/location"
         android:textSize="16sp" />
 
 </LinearLayout>

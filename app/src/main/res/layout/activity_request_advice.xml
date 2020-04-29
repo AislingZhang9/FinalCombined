@@ -68,7 +68,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.3"
         android:freezesText="true"
-        android:hint="Issue: "
+        android:hint="@string/issue"
         android:layout_margin="8dp"/>
 
     <EditText
@@ -79,7 +79,7 @@
         android:layout_weight="0.3"
         android:freezesText="true"
         android:layout_margin="8dp"
-        android:hint="Goal: " />
+        android:hint="@string/goal" />
 
     <EditText
         android:id="@+id/description_edit_field"
@@ -89,7 +89,7 @@
         android:layout_margin="8dp"
         android:freezesText="true"
         android:gravity="bottom"
-        android:hint="Description (Basic Information): " />
+        android:hint="@string/description" />
 
     <Button
         android:id="@+id/send_to_firebase_button"
