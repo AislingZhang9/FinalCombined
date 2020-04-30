@@ -94,7 +94,6 @@
     <string name="doubles">Doubles</string>
     <string name="chibing_wu">Chibing Wu</string>
     <string name="chibinwu_intro" translatable="false">\n- 1996 – present: Founder and Head coach for NYC Badminton Club\n\n - 2015: Head coach for Pan American Team\n\n - 2014: USAB Certified HIGH PERFORMANCE COACH Level 4\n\n - 2003: 1st place in Men’s Doubles in BOSTON OPEN.\n\n - 2002: 1st place in Men’s Single in BOSTON OPEN.\n\n - 2000: 1st place in Men’s Doubles and Mixed Doubles, 3rd place in Men’s Single in USA National Championship.\n\n - 1997: as replacement coach for USA Olympic Team at Olympic Training Center in Colorado Spring.\n\n - 1992 – 1996: Head coach for Spain National Olympic Team.\n\n - 1992: Award as International Sports Master by China National Sports Federation.\n\n - 1987 – 1992: Member of China National Team.\n</string>
-    <string name="contact">contact</string>
     <string name="play">Play</string>
     <string name="get">Get</string>
     <string name="badminton_rules">Badminton Rules</string>
@@ -105,7 +104,7 @@
     <string name="issue">Issue:</string>
     <string name="goal">Goal:</string>
     <string name="description">Description (Basic Information):</string>
-    <string name="tab1_2">1. When the leading score reaches 11 points, players have a 60 second interval.\n\n2. A 2 minute interval between each game is allowed.\n\n3. In the third game, players change ends when the leading score reaches 11 points.\n</string>
+    <string name="tab1_2">"1. When the leading score reaches 11 points, players have a 60 second interval.  2. A 2 minute interval between each game is allowed.  3. In the third game, players change ends when the leading score reaches 11 points. "</string>
     <string name="interval_and_change_of_ends">Interval and Change of Ends</string>
     <string name="tab1_1">1. A match consists of the best of 3 games of 21 points.\n\n2. Every time there is a serve - three is a point scored.\n\n3. The side winning a rally adds a point to its score.\n\n4. At 20 all, the side which gains a 2 point lead first, wins that game.\n\n5. At 29 all, the side scoring the 30th point, wins that game.\n\n6. The side winning a game serves first in the next game.</string>
     <string name="scoring_system">Scoring System</string>
@@ -113,6 +112,7 @@
     <string name="singles_rule">1. At the beginning of the game (0-0) and when the server’s score is even, the server serves from the right service court. When the server’s score is odd, the server serves from the left service court.\n\n2. If the server wins a rally, the server scores a point and then serves again from the alternate service court.\n\n3. If the receiver wins a rally, the receiver scores a point and becomes the new server. They serve from the appropriate service court – left if their score is odd, and right if it is even.</string>
     <string name="tab3_1">1. A side has only one ‘service’.\n\n2. The service passes consecutively to the players as shown in the diagram.\n</string>
     <string name="tab3_2">3. At the beginning of the game and when the score is even, the server serves from the right service court. When it is odd, the server serves from the left court.\n\n4. If the serving side wins a rally, the serving side scores a point and the same server serves again from the alternate service court.\n\n5. If the receiving side wins a rally, the receiving side scores a point. The receiving side becomes the new serving side.\n\n6. The players do not change their respective service courts until they win a point when their side is serving.\n\n</string>
+    <string name="contact">contact</string>
 
 
 </resources>

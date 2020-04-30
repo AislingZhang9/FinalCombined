@@ -61,7 +61,7 @@
         android:layout_marginRight="16dp"
         android:background="@color/gray"
         android:onClick="sendEmail"
-        android:text="contact"
+        android:text="@string/contact"
         android:textSize="16sp" />
 
 
